@@ -9,7 +9,10 @@ class App extends Component {
   render() {
     return (
      <div>
-     <Board />
+        <h1>Treasure Hunt</h1>
+        <div className = "random">
+        <Board />
+        </div>
       </div>
     );
   }
